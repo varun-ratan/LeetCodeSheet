@@ -4,8 +4,8 @@ public class NumberOfBitsRequiredToConvertAIntoB {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a=10110;
-		int b=11011;
+		int a=10110; //22
+		int b=11011; //27
 		int c=a^b;
 		int count=0;
 		System.out.println(c);
