@@ -35,6 +35,7 @@ public class FindTheDifference {
 	}
     public static char findTheDifference(String s, String t) {
 
+    	// we are doing the XOR of string s and t because if we do xor of same numbers then itbecomes 0
     	if(s.length()==0)
         {
             return t.charAt(0);
